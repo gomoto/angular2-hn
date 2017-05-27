@@ -1,9 +1,6 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { FeedComponent } from './feeds/feed/feed.component';
-import { UserComponent } from './user/user.component';
-
 const routes: Routes = [
   {path: '', redirectTo: 'news/1', pathMatch: 'full'},
   {path: 'news', loadChildren: 'app/feeds/feeds.module#FeedsModule', data: {feedType: 'news'}},
