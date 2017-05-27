@@ -129,13 +129,13 @@ module.exports = {
         ],
         "test": /\.css$/,
         "loaders": ExtractTextPlugin.extract({
-  "use": [
-    "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
-    "postcss-loader"
-  ],
-  "fallback": "style-loader",
-  "publicPath": ""
-})
+          "use": [
+            "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
+            "postcss-loader"
+          ],
+          "fallback": "style-loader",
+          "publicPath": ""
+        })
       },
       {
         "include": [
@@ -143,14 +143,14 @@ module.exports = {
         ],
         "test": /\.scss$|\.sass$/,
         "loaders": ExtractTextPlugin.extract({
-  "use": [
-    "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
-    "postcss-loader",
-    "sass-loader"
-  ],
-  "fallback": "style-loader",
-  "publicPath": ""
-})
+          "use": [
+            "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
+            "postcss-loader",
+            "sass-loader"
+          ],
+          "fallback": "style-loader",
+          "publicPath": ""
+        })
       },
       {
         "include": [
@@ -158,14 +158,14 @@ module.exports = {
         ],
         "test": /\.less$/,
         "loaders": ExtractTextPlugin.extract({
-  "use": [
-    "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
-    "postcss-loader",
-    "less-loader"
-  ],
-  "fallback": "style-loader",
-  "publicPath": ""
-})
+          "use": [
+            "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
+            "postcss-loader",
+            "less-loader"
+          ],
+          "fallback": "style-loader",
+          "publicPath": ""
+        })
       },
       {
         "include": [
@@ -173,14 +173,14 @@ module.exports = {
         ],
         "test": /\.styl$/,
         "loaders": ExtractTextPlugin.extract({
-  "use": [
-    "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
-    "postcss-loader",
-    "stylus-loader?{\"sourceMap\":false,\"paths\":[]}"
-  ],
-  "fallback": "style-loader",
-  "publicPath": ""
-})
+          "use": [
+            "css-loader?{\"sourceMap\":false,\"importLoaders\":1}",
+            "postcss-loader",
+            "stylus-loader?{\"sourceMap\":false,\"paths\":[]}"
+          ],
+          "fallback": "style-loader",
+          "publicPath": ""
+        })
       },
       {
         "test": /\.ts$/,
