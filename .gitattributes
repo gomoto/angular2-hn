@@ -1,1 +1,2 @@
+# Exclude from language statistics on GitHub.
 src/**/*.scss linguist-vendored
